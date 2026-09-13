@@ -1,0 +1,162 @@
+import { AddOnItem } from '../types';
+
+export const ADD_ONS_DATA: AddOnItem[] = [
+  // Fries & Finger Foods
+  {
+    id: 'addon-french-fries',
+    name: 'Classic Golden French Fries',
+    description: 'Crispy skin-on sea salted potato fries served with house garlic aioli.',
+    image: 'https://images.unsplash.com/photo-1541592106381-b31e9677c0e5?w=600&auto=format&fit=crop&q=80',
+    price: 18,
+    category: 'sides',
+    available: true,
+    calories: 340,
+  },
+  {
+    id: 'addon-curly-fries',
+    name: 'Loaded Truffle Curly Fries',
+    description: 'Seasoned spiral fries tossed in white truffle oil, fresh rosemary, and grated parmesan.',
+    image: 'https://images.unsplash.com/photo-1576107232684-1279f3908594?w=600&auto=format&fit=crop&q=80',
+    price: 24,
+    category: 'sides',
+    available: true,
+    calories: 410,
+  },
+  {
+    id: 'addon-chicken-strips',
+    name: 'Crispy Buttermilk Chicken Strips (4 pcs)',
+    description: 'Tender chicken breast hand-breaded in seasoned panko, fried crisp and juicy.',
+    image: 'https://images.unsplash.com/photo-1562967914-608f82629710?w=600&auto=format&fit=crop&q=80',
+    price: 29,
+    category: 'sides',
+    available: true,
+    calories: 460,
+  },
+  {
+    id: 'addon-mozzarella-sticks',
+    name: 'Golden Mozzarella Sticks (6 pcs)',
+    description: 'Melty fior di latte mozzarella in Italian herb breading, served with warm marinara.',
+    image: 'https://images.unsplash.com/photo-1531749668029-2db88e4276c7?w=600&auto=format&fit=crop&q=80',
+    price: 26,
+    category: 'sides',
+    available: true,
+    calories: 390,
+  },
+  {
+    id: 'addon-garlic-bread',
+    name: 'Truffle Garlic Herb Bread',
+    description: 'Crusty artisan ciabatta toasted with crushed roasted garlic, parsley, and melted fontina.',
+    image: 'https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?w=600&auto=format&fit=crop&q=80',
+    price: 22,
+    category: 'sides',
+    available: true,
+    calories: 310,
+  },
+  {
+    id: 'addon-onion-rings',
+    name: 'Crispy Golden Onion Rings',
+    description: 'Thick-cut sweet Spanish onions encased in light golden crispy batter.',
+    image: 'https://images.unsplash.com/photo-1639024471287-032f66e5114a?w=600&auto=format&fit=crop&q=80',
+    price: 20,
+    category: 'sides',
+    available: true,
+    calories: 320,
+  },
+
+  // Wings
+  {
+    id: 'addon-chicken-wings',
+    name: 'Buffalo Glazed Jumbo Wings (6 pcs)',
+    description: 'Crispy fried jumbo wings drenched in spicy tangy cayenne butter glaze with blue cheese dip.',
+    image: 'https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=600&auto=format&fit=crop&q=80',
+    price: 34,
+    category: 'wings',
+    available: true,
+    calories: 490,
+  },
+
+  // Dipping Sauces
+  {
+    id: 'addon-sauce-truffle-aioli',
+    name: 'Black Truffle Garlic Aioli',
+    description: 'Velvety creamy garlic aioli infused with Italian black winter truffles (2oz).',
+    image: 'https://images.unsplash.com/photo-1472476443507-c7a5948772fc?w=600&auto=format&fit=crop&q=80',
+    price: 6,
+    category: 'sauces',
+    available: true,
+    calories: 120,
+  },
+  {
+    id: 'addon-sauce-hot-honey',
+    name: 'Calabrian Chili Hot Honey Dip',
+    description: 'Wildflower raw honey slow-infused with crushed fiery Calabrian chili flakes (2oz).',
+    image: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600&auto=format&fit=crop&q=80',
+    price: 6,
+    category: 'sauces',
+    available: true,
+    calories: 90,
+  },
+  {
+    id: 'addon-sauce-ranch',
+    name: 'Buttermilk Herb Ranch',
+    description: 'Chilled buttermilk dip with fresh dill, chives, cracked black pepper, and sea salt (2oz).',
+    image: 'https://images.unsplash.com/photo-1540420773420-3366772f4999?w=600&auto=format&fit=crop&q=80',
+    price: 5,
+    category: 'sauces',
+    available: true,
+    calories: 110,
+  },
+
+  // Soft Drinks
+  {
+    id: 'addon-drink-san-pellegrino',
+    name: 'San Pellegrino Aranciata Rossa',
+    description: 'Sparkling Italian mineral soda with Mediterranean blood orange in a glass bottle (330ml).',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600&auto=format&fit=crop&q=80',
+    price: 14,
+    category: 'drinks',
+    available: true,
+    calories: 140,
+  },
+  {
+    id: 'addon-drink-mexican-coke',
+    name: 'Coca-Cola (Glass Bottle 355ml)',
+    description: 'Chilled Coca-Cola classic bottle served with ice and fresh lemon.',
+    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?w=600&auto=format&fit=crop&q=80',
+    price: 9,
+    category: 'drinks',
+    available: true,
+    calories: 150,
+  },
+
+  // Desserts
+  {
+    id: 'addon-dessert-nutella-calzone',
+    name: 'Warm Nutella Stuffed Calzone',
+    description: 'Oven-baked blistered dough stuffed with melted Ferrero Nutella and sweet mascarpone.',
+    image: 'https://images.unsplash.com/photo-1587314168485-3236d6710814?w=600&auto=format&fit=crop&q=80',
+    price: 36,
+    category: 'desserts',
+    available: true,
+    calories: 480,
+  },
+  {
+    id: 'addon-dessert-cannoli',
+    name: 'Sicilian Ricotta Cannoli (2 pcs)',
+    description: 'Golden crunchy shells packed with sweet sheep ricotta, chocolate chips, and pistachios.',
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&auto=format&fit=crop&q=80',
+    price: 26,
+    category: 'desserts',
+    available: true,
+    calories: 280,
+  },
+];
+
+// Quick suggestions for upsell banner when a pizza is added
+export const UPSELL_SUGGESTIONS: AddOnItem[] = [
+  ADD_ONS_DATA.find((a) => a.id === 'addon-curly-fries')!,
+  ADD_ONS_DATA.find((a) => a.id === 'addon-chicken-wings')!,
+  ADD_ONS_DATA.find((a) => a.id === 'addon-drink-san-pellegrino')!,
+  ADD_ONS_DATA.find((a) => a.id === 'addon-mozzarella-sticks')!,
+  ADD_ONS_DATA.find((a) => a.id === 'addon-dessert-nutella-calzone')!,
+];

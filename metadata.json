@@ -1,0 +1,7 @@
+{
+  "name": "Gustoso Pizza Co.",
+  "description": "Artisanal stone-baked pizza restaurant e-commerce platform with live customization, seamless checkout, and real-time order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
